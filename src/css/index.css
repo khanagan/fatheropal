@@ -1,8 +1,49 @@
-
 * {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+  background-color: #fde0e5;
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 48px;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: #282b35;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+#fcdbcc coral
+  color: #fcccd5;  pink
+  background-color: #fde0e5; light pink
+  #f76d86 # dark pink 
+ 
+    color: rgb(77, 81, 87); dark grey
+
+ #ccedfc; light blue 
 
 h1 {
   color: SeaGreen;
@@ -17,4 +58,4 @@ li {
 
 a {
   text-decoration: none;
-}
+} */
