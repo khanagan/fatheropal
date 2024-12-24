@@ -4,6 +4,7 @@
 
 body {
   background-color: #fde0e5;
+  padding: 24px;
 }
 
 h1 {
@@ -37,8 +38,12 @@ button {
   background-color: white;
 }
 
-a {
+.link-button {
   text-decoration: none;
+}
+
+a {
+  color: #f76d86;
 }
 
 .decorative-border-aqua {
@@ -57,9 +62,6 @@ a {
     inset #f3f3f3 0 0 0 22px;
 }
 
-body {
-  padding: 24px;
-}
 /* 
 #313131
 #fcdbcc coral
