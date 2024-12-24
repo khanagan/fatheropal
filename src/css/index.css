@@ -6,22 +6,28 @@ body {
   background-color: #fde0e5;
 }
 
-h2 {
-  font-size: 32px;
-  color: black;
-}
-
 h1 {
-  color: black;
+  color: #282b35;
   font-size: 48px;
 }
 
+h2 {
+  font-size: 32px;
+  color: #282b35;
+}
+
 h3 {
-  color: white;
+  color: #282b35;
 }
 
 p {
   color: #282b35;
+  font-size: large;
+}
+
+li {
+  color: #282b35;
+  font-size: large;
 }
 
 button {
@@ -35,7 +41,27 @@ a {
   text-decoration: none;
 }
 
+.decorative-border-aqua {
+  color: #009688;
+  padding: 24px;
+  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px,
+    inset #0cab9c 0 0 0 10px, inset #1fbdae 0 0 0 11px, inset #8ce9ff 0 0 0 16px,
+    inset #48e4d6 0 0 0 17px, inset #e5f9f7 0 0 0 21px, inset #bfecf7 0 0 0 22px;
+}
+
+.decorative-border-grayscale {
+  padding: 22px;
+  box-shadow: inset #313131 0 0 0 5px, inset #4e4e4e 0 0 0 1px,
+    inset #6d6d6d 0 0 0 10px, inset #7e7e7e 0 0 0 11px, inset #989898 0 0 0 16px,
+    inset rgb(182, 182, 182) 0 0 0 17px, inset #d3d3d3 0 0 0 21px,
+    inset #f3f3f3 0 0 0 22px;
+}
+
+body {
+  padding: 24px;
+}
 /* 
+#313131
 #fcdbcc coral
   color: #fcccd5;  pink
   background-color: #fde0e5; light pink
